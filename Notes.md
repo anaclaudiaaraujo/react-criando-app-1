@@ -38,3 +38,11 @@ Repositório para anotações e exercícios relacionados ao curso [Reacte Native
     - Usando a biblioteca do Expo para chamar o AppLoading, podemos fazer a splash screen ser exibida por mais tempo enquanto as funções do nosso app são carregadas antes de exibir o conteúdo de fato.
 
 ## Módulo 4 - Botão e lista
+- Button:
+    - Aprendemos a usar o Button, que é um botão simples e com pouca customização.
+- Botão Customizado:
+    - Com os componentes TouchableOpacity, TouchableWithoutFeesback, criamos botões muito mais customizados.
+- ScrollView:
+    - Aprendemos a usar a ScrollView para permitir rolagem na tela, desde que não usando FlatList, pois há incompatibilidades entre esses dois componentes.
+- FlatList:
+    - Aprendemos a otimizar listas e fazer a rolagem da tela exclusivamente com o FlatList.
