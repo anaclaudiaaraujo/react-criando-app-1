@@ -13,11 +13,11 @@ export default function App() {
   if (!fontCarregada) {
     return <AppLoading />
   }
-  
-    return (
-      <SafeAreaView >
-        <StatusBar />
-        <Cesta {...mock} />
-      </SafeAreaView>
-    );
+
+  return (
+    <SafeAreaView style={{ flex: 1 }} >
+      <StatusBar />
+      <Cesta {...mock} />
+    </SafeAreaView>
+  );
 };
